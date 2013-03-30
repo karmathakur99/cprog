@@ -5,7 +5,7 @@ int main()
  int i,rev=0,rem=0,num;
  printf("Enter the Number: ");
  scanf("%d",&num);
- while(num>0)
+ while(num>0)                        //to terminate the loop
   {
    rem=num%10;
    rev=(rev*10)+rem;
